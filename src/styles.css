@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.appHeaderFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #000058;
+}
+.headerFooterTitle {
+  color: whitesmoke;
+  font-style: italic;
+  margin: 0;
+}
+.formContainer {
+  background-color: #e8e8e8;
+  padding: 30px;
+}
+.formContainer > * {
+  padding-top: 10px;
+}
+/* radio check style */
+.radioCheckStyle {
+}
+.topHeader {
+  padding-top: 0px;
+}
+.resultedText {
+  display: none;
+  background-color: rgba(32, 32, 32, 0.9);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+.resultedTextInnerContainer {
+  margin-top: 100px;
+}
+.resultedTextInnerContainer > * {
+  color: whitesmoke;
+}
+.resultedTextStyle {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  height: 150px;
+  word-wrap: break-word;
+}
+.overlayScreenBtn {
+  margin: 10px;
+}
